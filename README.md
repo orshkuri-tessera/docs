@@ -1,4 +1,4 @@
-# Mintlify Starter Kit
+# Arch docs - Integrations
 
 Use the starter kit to get your docs deployed and ready to customize.
 
