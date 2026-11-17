@@ -18,8 +18,9 @@
 
 ## Terminology
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- "Integration": a tool Arch supports (for example, a vendor's EDR). "Connection": one customer account linked
+  to Arch. Do not use "connector" in customer-facing pages.
+- "Arch console" for the product UI.
 
 ## Style preferences
 
@@ -33,5 +34,7 @@
 
 ## Content boundaries
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- This site is customer-facing. Each integration guide is for the administrator who connects the tool.
+- Every new guide starts from `templates/integration-guide.mdx` and is added to `docs.json` navigation.
+- Do not document internals: simulators, rate limits, sync mechanics, service names or code paths.
+- Never name a customer or prospect.
