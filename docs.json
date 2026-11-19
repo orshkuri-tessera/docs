@@ -1,44 +1,34 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Arch Integrations",
   "colors": {
-    "primary": "#171717",
-    "light": "#FAFAFA",
-    "dark": "#171717"
+    "dark": "#000000",
+    "light": "#f1f1f1",
+    "primary": "#1f1f1f"
   },
   "favicon": "/favicon.svg",
+  "fonts": {
+    "family": "Manrope"
+  },
+  "logo": {
+    "dark": "/favicon.svg",
+    "light": "/favicon.svg"
+  },
+  "name": "Arch documentation",
   "navigation": {
     "groups": [
       {
-        "group": "Getting started",
+        "group": "Arch documentation",
         "pages": [
-          "index",
-          "integrations/overview"
+          "index"
         ]
       },
       {
-        "group": "Endpoint",
+        "group": "Integrations",
         "pages": [
-          "integrations/example-edr"
+          "integrations/sophos"
         ]
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
-  }
+  "theme": "mint"
 }
