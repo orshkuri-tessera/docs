@@ -1,5 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "background": {
+    "color": {
+      "dark": "#252525",
+      "light": "#ffffff"
+    }
+  },
   "colors": {
     "dark": "#000000",
     "light": "#f1f1f1",
@@ -17,7 +23,7 @@
   "navigation": {
     "groups": [
       {
-        "group": "Arch documentation",
+        "group": "Get started",
         "pages": [
           "index"
         ]

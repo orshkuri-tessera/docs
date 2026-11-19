@@ -1,5 +1,5 @@
 ---
-title: Arch documentation
+title: Overview
 description: Guides for preparing your tools to connect to Arch.
 ---
 
